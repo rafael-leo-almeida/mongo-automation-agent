@@ -8,7 +8,7 @@ ENV AGENT_PACKAGE_URL https://cloud.mongodb.com/download/agent/automation/$AGENT
 RUN apt-get -qqy update && \
     apt-get install -qqy --no-install-recommends curl ca-certificates libsasl2-2 && \
     apt-get clean && \
-	rm -rf /tmp/* /var/tmp/* /var/lib/apt/lists/* && \
+	rm -rf /tmp/* /var/tmp/* /var/lib/apt/lists/*
 	
 # MMS automation
 VOLUME /var/lib/mongodb-mms-automation
