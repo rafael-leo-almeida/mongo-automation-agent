@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
-MAINTAINER Sam Grimee "sgrimee@gmail.com"
+MAINTAINER Rafael Almeida "rafael.sisweb@gmail.com"
 
-ENV REFRESHED_AT 2016-02-02
+ENV REFRESHED_AT 2016-02-03
 ENV AGENT_PACKAGE mongodb-mms-automation-agent-manager_2.5.15.1526-1_amd64.deb
 ENV AGENT_PACKAGE_URL https://cloud.mongodb.com/download/agent/automation/$AGENT_PACKAGE
 
